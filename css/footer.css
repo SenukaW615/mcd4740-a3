@@ -1,0 +1,203 @@
+/*
+CSS for the footer
+*/
+
+/*CSS Common for both Mobile and Desktop Versions*/
+ #footer-content{
+    background-color: #f8f3ceff;
+    align-content: center;
+ }
+
+#footer-top{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap; 
+}
+
+#footer-menu{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-menu-option ul li{
+    padding: 0.5rem;
+    font-size: 80%;
+}
+
+.footer-menu-option ul li a:hover{
+    color: #ad933c;
+}
+
+#bottom-line{
+    width: 100%;
+    height: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border: 0.1rem solid #595959;
+}
+
+.footer-box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.footer-box-title{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.reservations-office-details{
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.award{
+    width: 45%;
+    height: auto;
+}
+
+#social-box{
+    display: flex;
+    flex-direction: column;
+}
+
+#social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icon{
+    margin: 1rem;
+    width: 3rem;
+    height: auto;
+}
+
+#tag-button-align{
+    display: flex;
+    justify-content: center;
+}
+
+#tag-button{
+    background-color: #f8f3ceff;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    font-style: italic;
+}
+
+#tag-button:hover{
+    background-color: #595959;
+    color: #f8f3ceff;
+    border: 1px solid #f8f3ceff;
+}
+
+#footer-copyright{
+    margin-top: 0.8rem;
+    padding: 0.4rem;
+    background-color: #f8f3ceff;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+
+
+
+/* Mobile Version- 1023px */
+@media only screen and (max-width: 63.9375rem) {
+
+.top-line{
+    width: 38%;
+    height: 1%;
+    margin-top: 4%;
+    border: 0.1rem solid #595959;
+}
+
+#footer-logo{
+    width: 24%;
+    height: auto;
+}
+
+.footer-menu-option{
+    padding:2rem;
+    width: 40%;
+    font-size: 150%;
+}
+
+#awards-socials{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.footer-box{
+    width: 50%;
+}
+
+.reservations-office-details img{
+    height: 1rem;
+    width: auto;
+    padding-top: 1rem;
+}
+
+#award-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+
+
+/*Desktop Version- 1024px */
+@media only screen and (min-width: 64rem) {
+
+.top-line{
+    width: 42%;
+    height: 1%;
+    margin-top: 2.5%;
+    border: 0.1rem solid #595959;
+}
+
+#footer-logo{
+    width: 16%;
+    height: auto;
+}
+
+.footer-menu-option{
+    padding:2rem;
+    width: auto;
+    font-size: 150%;
+}
+
+#awards-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-box{
+    width: 24%;
+}
+
+.reservations-office-details img{
+    height: 1rem;
+    width: auto;
+    padding-top: 1rem;
+}
+
+#award-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.award{
+    padding: 0.5rem;
+}
+}                          

@@ -1,0 +1,149 @@
+/*
+CSS for the body of the page
+(Fancybox code has been used to largen the images of the accommodation options. 
+Link: https://fancyapps.com/fancybox/)
+*/
+
+/*CSS Common for both Mobile and Desktop Versions*/
+#header-cover{
+  width: 100%;
+  height: 10rem;
+  display: block;
+}
+
+#overview{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.accom-title{
+  margin: 1rem;
+  color: #4c4c4c;
+}
+
+.accom-description{
+  margin: 1rem 5% 1.5rem 5%;
+  font-size: 104%;
+}
+
+#conference-rates:hover {
+  color: #ad933c;
+}
+
+.accom-button:hover{
+    color: #f8f3ceff;
+    background-color: #57564fff;
+    border: 1px solid #f8f3ceff;
+}
+
+
+
+
+/*Mobile Version - 1023px */
+@media only screen and (max-width: 63.9375rem) {
+  #options{
+      background-color: #7a7a73ff;
+      display: flex;
+      align-content: center;
+      flex-flow: column wrap;
+      margin-top: 3rem;
+  }
+
+  .accom-box{
+      background-color: #eeeeeeff;
+      border-radius: 2rem;
+      max-width: 75%;
+      max-height: 50%;
+      height: auto;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .accom-title{
+      font-size: 2rem;
+  }
+
+  .accom-img{
+      height: auto;
+      width: 64.5%;
+      margin-left: 17.7%;
+      margin-right: 17.7%;
+      margin-bottom: 1rem;
+  }
+  
+  .accom-rate{
+      margin-bottom: 1rem;
+      font-style: italic;
+  }
+
+  .accom-button{
+      margin: 1rem 30% 0 30%;
+      min-width: 30%;
+      background-color: #f8f3ceff;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 1px solid black;
+      font-size: 104%;
+      text-decoration: none;
+      transition: color .3s, background-color .3s, border .3s;
+  }
+
+}
+
+
+
+
+/*Desktop Version - 1024px */
+@media only screen and (min-width: 64rem) {
+  #options{
+      background-color: #7a7a73ff;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap;
+      margin-top: 3rem;
+  }
+
+  .accom-box{
+      background-color: #eeeeeeff;
+      border-radius: 2rem;
+      max-width: 25%;
+      max-height: 50%;
+      height: auto;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .accom-title{
+      font-size: 180%;
+  }
+
+  .accom-img{
+      height: auto;
+      width: 80%;
+  }
+
+  .accom-rate{
+      margin-bottom: 1rem;
+      font-style: italic;
+  }
+
+  .accom-button{
+      margin: 1rem 30% 0 30%;
+      min-width: 30%;
+      background-color: #f8f3ceff;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 1px solid black;
+      font-size: 104%;
+      text-decoration: none;
+      transition: color .3s, background-color .3s, border .3s;
+  }
+}                          
